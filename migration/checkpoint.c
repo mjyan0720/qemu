@@ -30,6 +30,7 @@
 #include "block/block.h"
 #include "sysemu/block-backend.h"
 #include <sys/ioctl.h>
+#include <net/if.h>
 
 #ifndef rtnl_tc_get_ops
 extern struct rtnl_tc_ops * rtnl_tc_get_ops(struct rtnl_tc *);
